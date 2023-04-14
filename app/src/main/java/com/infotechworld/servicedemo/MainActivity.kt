@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.button).setOnClickListener{
-            startActivity(Intent(this, DiagnosisFeature::class.java))
+            //startActivity(Intent(this, DiagnosisFeature::class.java))
         }
     }
 
